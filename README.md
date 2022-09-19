@@ -1,5 +1,6 @@
 # CS_330_PLP
-![image](https://user-images.githubusercontent.com/113862278/191073356-9455bcce-3154-4795-8ee8-231e7fda073c.png)
+<img width="200" alt="Screen Shot 2022-09-19 at 1 07 15 PM" src="https://user-images.githubusercontent.com/113862278/191074245-c507001b-d28d-4e70-864a-5befdf745dad.png">
+
 
 ## Intro to C Programming language
 - "learn some history
