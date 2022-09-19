@@ -1,5 +1,7 @@
 # CS_330_PLP
 ## Intro to C Programming language
+- "learn some history
+- "some resources for beginners
 - "learn to print "hello world" in C using VSCode for Mac"
 
 ## Some background infor regarding the origins and uses of C
@@ -8,7 +10,9 @@
 - B programming language the predecessor of C was eventually retired as C became more advanced and was able to take over rewriting UNIX systems.
 - C is commonly used on computer architectures for example: micro controllers, embedded systems, and super computers.
 #### Some specs...
-- 
+- C is a compiled language
+- C is an imperative procedural language 
+- C is a general use supporting structured programming, lexical variable scope, and recursion, with a static type system.
 
 
 
