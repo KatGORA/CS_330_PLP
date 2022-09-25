@@ -102,7 +102,13 @@
 	int myAge = 20;
 	printf("I am: %d", myAge); // concatinates string in " " and the value stored in myAge
 
-
 ##### Is your language statically or dynamically typed?Strongly typed or weakly typed? Are some variables mutable while others are immutable? What are the operators available for each data type? Are mixed type operations allowed? If so, how are they accommodated? At what point are identifier names and operator symbols bound in your language? For example if you declare a (variable, class name, function name), when is it bound to the type, address? When are operators (+,*, etc.) bound to their operations?
+
 # ***Reserve Words in C***
-> Like python C has reserve words and built in functions
+> Like python C has reserve words that means they are built into the language and one can not use them as variable names or the computer will think there is an action being done. For example _char_, _int_, and _float_ are all reserve words.
+### here is a list of some common reserve words...
+
+auto	else	long	switch
+break	enum	register typedef
+case	extern	return	union
+char	float	short	unsigned
