@@ -38,7 +38,10 @@
 	printf("Hello, World!");
 	return 0;
 	}
-
+> You can use as many printf() statments but if you want to print on a new line you have to use this format with the use of \n after the first statement in quotations...
+	
+	printf("Hello World! \n");
+  	printf("I am learning C.");
 
 ##### 4. to make comments use 
 	/* text here */ format or // text here. 
@@ -102,13 +105,25 @@
 	int myAge = 20;
 	printf("I am: %d", myAge); // concatinates string in " " and the value stored in myAge
 
-##### Is your language statically or dynamically typed?Strongly typed or weakly typed? Are some variables mutable while others are immutable? What are the operators available for each data type? Are mixed type operations allowed? If so, how are they accommodated? At what point are identifier names and operator symbols bound in your language? For example if you declare a (variable, class name, function name), when is it bound to the type, address? When are operators (+,*, etc.) bound to their operations?
+[Examples of arithmatic symbols with _ints_ and _floats_]()
 
 # ***Reserve Words in C***
-> Like python C has reserve words that means they are built into the language and one can not use them as variable names or the computer will think there is an action being done. For example _char_, _int_, and _float_ are all reserve words.
+> Like python C has reserve words that means they are built into the language and one can not use them as variable names or the computer will think there is an action being done. For example _char_, _int_, and _float_ are all reserve words. 
+
+
+>"reserve words should not be made into variable names, identifiers, or abreviated." 
 ### here is a list of some common reserve words...
 
-auto	else	long	switch
-break	enum	register typedef
-case	extern	return	union
-char	float	short	unsigned
+	auto    else    long 	  switch
+
+	break   enum 	register  typedef
+
+	case    extern  return	  union
+
+	char	float	short	  unsigned
+	
+> here is a helpful resource on [reserved words in C by IBM](https://www.ibm.com/docs/en/developer-for-zos/14.2.0?topic=programs-c-reserved-keywords) 
+
+
+
+
