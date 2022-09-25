@@ -1,7 +1,7 @@
 # ***CS_330_PLP***
 <img width="200" alt="Screen Shot 2022-09-19 at 1 07 15 PM" src="https://user-images.githubusercontent.com/113862278/191074245-c507001b-d28d-4e70-864a-5befdf745dad.png">
 
-## ***Intro to C Programming language***
+# ***Intro to C Programming language***
 - "learn some history
 - "some resources for beginners
 - "learn to print "hello world" in C using VSCode for Mac"
@@ -56,3 +56,53 @@
 ##### - [W3Schools C basics](https://www.w3schools.com/c/)
 ##### - [Syntax for C](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/)
 
+
+# ***Naming Variables in C (identifiers)***
+> "Variable naming rules in C are similar to Python in that they must be unique and follow rules such as beginning with either a letter or an underscore "_". The traditional rules in Python of not beginning with a capital letter can also be applied here out of strong tradition."
+
+
+
+#### **Some things to keep in mind when naming variables...**
+- make sure they are understandable 
+- Names can contain letters, digits and underscores
+- Names are case sensitive
+- Names cannot contain whitespaces or special characters like !, #, %, etc.
+- Reserved words (such as _int_) cannot be used as names
+
+<sup> *example of variable naming in C... </sup>
+	
+	char myCatName = 'Blacktail'; //is a good variable name since the value is a cat name like the variable name
+
+## ***Variable Types and How to Assign them in C***
+
+### Some variable types include...
+- int 
+- float (_floating point_)
+- char
+
+#### **1. Ints**
+##### ***"When creating and using ints in C the syntax below is used. Unlike Python assigning and naming a variable that uses int must be formatted as follows. Using int to declare the variable type and then followed by the name of the variable and what value will be assigned to it"***
+#### **for example...**
+#### In Python the syntax is as follows
+ 
+	num = 23
+
+#### However in C one must declare the variable type at the beginning of the statment and end with a semicolon...
+	int num = 23; 
+##### ***If you wanted to print the number you would also have to use a _format specifier_ such as "%d" or "%i".***
+	int num = 23;
+	printf("%d", num);
+- #### Likewise for _float_ and _char_ you would use _"%f"_ and _"%c"_ in your _printf()_ statment.
+##
+	// Print variables
+	printf("%d\n", num; // prints num
+	printf("%f\n", myFloatNum); // prints float
+	printf("%c\n", myLetter); // prints character
+#### ***You can also print characters and ints together after assigning them values...***
+	int myAge = 20;
+	printf("I am: %d", myAge); // concatinates string in " " and the value stored in myAge
+
+
+##### Is your language statically or dynamically typed?Strongly typed or weakly typed? Are some variables mutable while others are immutable? What are the operators available for each data type? Are mixed type operations allowed? If so, how are they accommodated? At what point are identifier names and operator symbols bound in your language? For example if you declare a (variable, class name, function name), when is it bound to the type, address? When are operators (+,*, etc.) bound to their operations?
+# ***Reserve Words in C***
+> Like python C has reserve words and built in functions
