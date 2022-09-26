@@ -95,6 +95,32 @@
 - float -> '%f'
 - string -> '%s'
 
+
+> C also uses _pointers_. _Pointers_ are a way of getting the location/address of a variable in memory. 
+
+- "A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location"
+
+- one can  use the following valid C data types with an * to make a pointer.
+
+	- int  *ip is a pointer for an integer type
+
+#### some pointer examples:
+- int       -> *ip
+- double    -> *dp
+- float     -> *fp
+- char      -> *ch
+
+## 
+	
+	//using the "&" one can get the address of a variable being stored
+	#include <stdio.h>
+	int main(){
+	int var1;
+	printf("%i", &var1);
+	}
+
+
+
 #### **1. Ints**
 ##### ***"When creating and using ints in C the syntax below is used. Unlike Python assigning and naming a variable that uses int must be formatted as follows. Using int to declare the variable type and then followed by the name of the variable and what value will be assigned to it"***
 #### **for example...**
@@ -126,6 +152,7 @@
 	float sum = 2.5 + 3; // sum will be a float point int
 	//output is 5.50000 
 > [resource for float arithmatic](https://www.programiz.com/c-programming/examples/add-numbers)
+
 #### **3.Chars**
 ##### ***"Stores a single character/letter/number, or ASCII values For example:***
 	char letter = 'a';
@@ -160,8 +187,18 @@
 
 	char	float	short	  unsigned
 	
-> here is a helpful resource on [reserved words in C by IBM](https://www.ibm.com/docs/en/developer-for-zos/14.2.0?topic=programs-c-reserved-keywords)  
+> here is a helpful resource on [reserved words in C by IBM](https://www.ibm.com/docs/en/developer-for-zos/14.2.0?topic=programs-c-reserved-keywords) 
 
 
+# *will this statement compile?*
+*check out the solution in willThisCompile.c*
 
+	x = "5" + 6
+> short answer no... 
 
+for starters...
+
+1. the variable _x_ is being assigned to the value after the addition of a _char/string_ and an _int_ and those two data types cant be added together and result in an int.
+2. the variable x should be assigned a data type like _int_ or _float_.
+3. the quotations should also be removed from the 5 so that it is read into the statment as an int not a chracter.
+4. in C the addition of the _;_ is needed after each statment.
