@@ -82,6 +82,18 @@
 - int 
 - float (_floating point_)
 - char
+- boolean
+- strings
+- array/list
+- dict
+>[Useful resource on data types for C](https://www.w3schools.com/c/c_data_types.php) 
+
+# **!! important !!**
+> C uses format specifiers in the following print statments in order to identify what data type is being printed. Below are some commonly used ones
+- char -> '%c'
+- int -> '%i' or '%d'
+- float -> '%f'
+- string -> '%s'
 
 #### **1. Ints**
 ##### ***"When creating and using ints in C the syntax below is used. Unlike Python assigning and naming a variable that uses int must be formatted as follows. Using int to declare the variable type and then followed by the name of the variable and what value will be assigned to it"***
@@ -105,7 +117,33 @@
 	int myAge = 20;
 	printf("I am: %d", myAge); // concatinates string in " " and the value stored in myAge
 
-[Examples of arithmatic symbols with _ints_ and _floats_]()
+#### [_Examples of arithmatic symbols with _ints_ and _floats_ can be found in the file _arithmaticOp.c_._]
+> [resource for using ints from w3schools](https://www.w3schools.com/c/c_data_types.php)
+
+#### **2. Floats**
+##### ***"using floats or floating point integers there are some similarities to how Python uses them. for example one can concatinate _floats_ and _ints_ in a print statment and in arithmatic expressions."***
+
+	float sum = 2.5 + 3; // sum will be a float point int
+	//output is 5.50000 
+> [resource for float arithmatic](https://www.programiz.com/c-programming/examples/add-numbers)
+#### **3.Chars**
+##### ***"Stores a single character/letter/number, or ASCII values For example:***
+	char letter = 'a';
+	printf('%c', letter); //output is "a"
+
+#### **4.Strings**
+##### ***"using strings data type in C can be made into an array of chars like..."***
+	char greetings[] = "good morning!";
+	printf('%c',greetings[0]); // output good morning!
+#### **5.Booleans**
+##### ***"Booleans in C are similar to Python booleans in that they are either true or false. the enum function can be use on bools."***
+	int main()
+	{
+ 	bool arr[2] = {true, false};
+  		return 0;
+		}
+
+> [more on booleans in C](https://www.geeksforgeeks.org/bool-in-c/)
 
 # ***Reserve Words in C***
 > Like python C has reserve words that means they are built into the language and one can not use them as variable names or the computer will think there is an action being done. For example _char_, _int_, and _float_ are all reserve words. 
@@ -122,7 +160,7 @@
 
 	char	float	short	  unsigned
 	
-> here is a helpful resource on [reserved words in C by IBM](https://www.ibm.com/docs/en/developer-for-zos/14.2.0?topic=programs-c-reserved-keywords) 
+> here is a helpful resource on [reserved words in C by IBM](https://www.ibm.com/docs/en/developer-for-zos/14.2.0?topic=programs-c-reserved-keywords)  
 
 
 
