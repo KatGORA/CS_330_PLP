@@ -202,3 +202,7 @@ for starters...
 2. the variable x should be assigned a data type like _int_ or _float_.
 3. the quotations should also be removed from the 5 so that it is read into the statment as an int not a chracter.
 4. in C the addition of the _;_ is needed after each statment.
+
+# ***Conditional Statements and if/else-if/else statments*** 
+
+## 
