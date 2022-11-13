@@ -205,4 +205,75 @@ for starters...
 
 ## ***Conditional Statements and if/else-if/else statments*** 
 
-### 
+##### ***like java, C has similar syntax for conditional statments.*** 
+1. If statment syntax are as follows..
+
+		if(condition){
+			 //is true }
+
+2. else if statment syntax are as follows...
+
+		else if(condition){
+			//is true
+		}
+
+3. else statment syntax is as follows...
+
+		else{
+			//is true
+		}
+## ***Some things to know about conditional operators in C***
+1. the condition in the if and else if statments is in normal parentheses "( )" and the code block statment is demilited in curly brackets "{ }". 
+2. conditional statment rules for inside parenthese are like Java and use conditional opperators such as <,>,/,%.
+3. logical opperators like in Java are also used in C. For example, &&, ||. 
+4. the variables that are to be used in the conditional statment are instantiated before the loop. 
+
+## ***Switch Statments in C***
+#### *like Java C also has switch statements and can be used in a similar way.*
+###### ***A switch statement allows a variable to be tested for equality against a list of values. Each value is called a case, and the variable being switched on is checked for each switch case.(Turtorialspoint)***
+
+	switch(expression) {
+	case constant-expression  :
+		statement(s);
+		break; /* optional */
+		
+	case constant-expression  :
+		statement(s);
+		break; /* optional */
+	
+	/* you can have any number of case statements */
+	default : /* Optional */
+	statement(s);
+	}
+
+- in short the switch is used like a condensed if/else-if/else statement for one variable or case to check it against other conditions that may pertain to it. 
+
+- below is another example...
+
+		#include <stdio.h>
+			int main(){
+
+			/*local variable defined*/
+			char cat = 'Blacktail'
+
+			switch (cat){
+				case 'Blacktail':
+				printf("not my cat");
+				break; 
+			/* breaks the switch */
+			/* runs the next cases if first is not executed */
+			case 'Bluetail':
+			case 'Whitetail':
+				printf("not my cat but close!");
+				break;
+			 case 'Bobert':
+			 	printf("woah defo not my cat???");
+				break;
+						}
+				}
+
+## ***Short circutting in C?***
+#### *What is short circutting?...*
+- short circutting in simplest of terms is when an if statment with an "or" or "and" will execute the first statment if true, regardless of the validity of the following stament. 
+- some programming languages don't short cur
+		
