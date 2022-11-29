@@ -275,5 +275,5 @@ for starters...
 ## ***Short circutting in C?***
 #### *What is short circutting?...*
 - short circutting in simplest of terms is when an if statment with an "or" or "and" will execute the first statment if true, regardless of the validity of the following stament. 
-- some programming languages don't short cur
+- some programming languages don't short circut
 		
