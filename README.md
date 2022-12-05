@@ -271,9 +271,64 @@ for starters...
 				break;
 						}
 				}
+- using "continue" in a switch statment like above will work to move to thenext interation in the loop.
+
+
+> [more on switch logic and syntax](https://www.javatpoint.com/c-switch)
 
 ## ***Short circutting in C?***
 #### *What is short circutting?...*
 - short circutting in simplest of terms is when an if statment with an "or" or "and" will execute the first statment if true, regardless of the validity of the following stament. 
-- some programming languages don't short circut
+- some programming languages don't short circut.
+- C short circuts in the code below and in the file "shortCircut.c"
+
+	
+		int x = 1;
+		int y = -1;
+
+		if (x == 50 || ++y) {
+			printf("if block executed\n");
+			printf("Value of y: %d", y);
+			}
+		else {
+			printf("else block executed\n");
+			printf("Value of y: %d", y);
+			}
+		return 0;
+
+## ***The dangling "else" issue in C?***
+
+
+##### "The dangling else problem results when a programmer believes (or forgets) the code indentation and loses track of the if statement that goes with the else statement. Unless braces are used to designate the code blocks, the else statement will be associated with the last if statement used."
+
+### ***What does C do to combat this?***
+- using curly braces to dilineate code and making sure only certain statments are executed. 
+- making sure that all statments are properly indented. 
+
+## ***Loops and Functions in C***
+### What do loops look like in C?
+- C has for, while and, do while loops. 
+- used for reusibility in code. 
+- typically used to traverse over elements in a data structure.
+
+### ***For Loop in C***
+- much like for loops in java and python the purpose of one is for iterating through a certain block of code until a condition is met. 
+- the loop control variable and condition are in the parenthesis unlike in some other languages like python. 
+- for example...
+ 
+		for(initialization;condition;incr/decr){  
+			//code to be executed  
+			}
+- the initialization is also contained in the parens unlike in python.   
+- for example...
 		
+			for(i=1;i<=10;i++){      
+			printf("%d \n",i);      
+			}     
+			return 0;  
+			}   
+- The i is set to 1 and is incremented until it is less than or equal to 10. 
+- in this case the i is the LCV.   
+
+### ***While Loop in C***
+- 
