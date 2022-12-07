@@ -331,4 +331,18 @@ for starters...
 - in this case the i is the LCV.   
 
 ### ***While Loop in C***
-- 
+- much like a while loop in java or python in its use and implementation. 
+- use of curly brackets to dilineate code blocks and statments within it that are to be executed when the condition is met. 
+- the LCV in this case is set by the condition such as a counter. 
+- for example... 
+
+		while(condition) {
+		statement(s);
+		}
+
+
+### ***Do-While Loops in C***
+- Java has a similar structure for this type of loop.
+- the loop begins by having a block of code inside the do{ } and is controlled by a while() condition at the end. 
+
+		
