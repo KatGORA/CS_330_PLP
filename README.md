@@ -345,4 +345,38 @@ for starters...
 - Java has a similar structure for this type of loop.
 - the loop begins by having a block of code inside the do{ } and is controlled by a while() condition at the end. 
 
+		do{
+			/* code block to be executed */
+		}
+		while(condition/s);
+
+- like a regular while loop the process terminates when the condition in parentheses is met. 
+
+## ***Functions in C***
+#### ***Function Declarations***
+- there are two parts to functions
+	- declaration: function name,return type , and parameters 
+	- definition: the actual body of the function
+
+			void func(); // function declared
+
+			int main(){ // 
+				func();
+				return 0;
+			}
+			void func() {
+				printf("my cat blacktail is the best!");
+			}
+
+- function declarations and definitions can be before main() or below main().
+- The variable return type should also be declared in befor the function name. 
+- if the function takes in non-void arguments the type must be declared in the parentheses as such....
+
+			Int sum2Num(int x, int y){
+		return x + y; 
+			} // will return an int 
+
+- 
+
+
 		
