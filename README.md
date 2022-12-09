@@ -376,7 +376,12 @@ for starters...
 		return x + y; 
 			} // will return an int 
 
-- 
+- C does support recursion but one must be careful when and where the function needs to exit the loop. 
+##### ***parameters***
+- basic rules
+	- parameters must be in the same order i=the arguments are passed in for both the declaration and the function call. 
+	- the parameter data types can be different from one another if there are two or more being passed in. 
+	-  
 
 
 		
