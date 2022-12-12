@@ -417,3 +417,5 @@ for starters...
 			int b = 200;
 
 - the values remain the same after the swap function is run. This is because, under the hood, C is passing in copies of the variables (a and b in this case), and they are modified within the function, but the originals remain unaffected
+
+### ***Stack vs. Heap***
