@@ -372,7 +372,7 @@ for starters...
 - The variable return type should also be declared in befor the function name. 
 - if the function takes in non-void arguments the type must be declared in the parentheses as such....
 
-			Int sum2Num(int x, int y){
+		Int sum2Num(int x, int y){
 		return x + y; 
 			} // will return an int 
 
@@ -381,7 +381,16 @@ for starters...
 - basic rules
 	- parameters must be in the same order i=the arguments are passed in for both the declaration and the function call. 
 	- the parameter data types can be different from one another if there are two or more being passed in. 
-	-  
+
+
+##### ***Return Values***
+- C does not support multiple return values directly but there are ways to get around that issue...
+	- the use of pointers 
+		- Pass the argument with their address and make changes in their value using pointer. So that the values get changed into the original argument. 	
+	- the use of structures (object like)
+		- by defining a structure with 2 vslues one can pass in a struct to a function and return 2 values since they are part of the struct. 
+	- the use of arrays 
+
 
 
 		
