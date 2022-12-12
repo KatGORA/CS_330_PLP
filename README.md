@@ -390,7 +390,30 @@ for starters...
 	- the use of structures (object like)
 		- by defining a structure with 2 vslues one can pass in a struct to a function and return 2 values since they are part of the struct. 
 	- the use of arrays 
+		- similar to the struct one can return an array of 2 values to bypass the issue with returning two values. 
+[some more on return values](https://www.geeksforgeeks.org/how-to-return-multiple-values-from-a-function-in-c-or-cpp/#:~:text=New%20programmers%20are%20usually%20in,do%20not%20allow%20this%20directly.)
 
+### ***is C pass by reference or pass by value?***
+#### **C is pass by value as it makes copies of values taht are passed through a function and then returns the copies of the original that are modified.**
 
+#### *"C always uses 'pass by value' to pass arguments to functions (another term is 'call by value', which means the same thing), which means the code within a function cannot alter the arguments used to call the function, even if the values are changed inside the function."*
+- a swap function is a good way to see if the language is pass by value or reference... 
+	
+					void swap(int fistVariable, int secondVariable)
+			{
+			// create a temporary variable to hold one of the values to perform the swap
+			int tempVariable;
 
-		
+			tempVariable = firstVariable;  /* temporarily save the value of the first variable */
+			firstVariable = secondVariable;  /* swap the vale of the first variable with the value of the second variable */
+			secondVariable = tempVariable;  /* put the value of the first variable into the second variable */
+
+			return;
+			}
+
+			int main(void)
+			{
+			int a = 100;
+			int b = 200;
+
+- the values remain the same after the swap function is run. This is because, under the hood, C is passing in copies of the variables (a and b in this case), and they are modified within the function, but the originals remain unaffected
