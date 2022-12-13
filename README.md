@@ -88,6 +88,8 @@
 - dict
 >[Useful resource on data types for C](https://www.w3schools.com/c/c_data_types.php) 
 
+<img width="200" alt= "table"
+src=
 # **!! important !!**
 > C uses format specifiers in the following print statments in order to identify what data type is being printed. Below are some commonly used ones
 - char -> '%c'
@@ -418,4 +420,6 @@ for starters...
 
 - the values remain the same after the swap function is run. This is because, under the hood, C is passing in copies of the variables (a and b in this case), and they are modified within the function, but the originals remain unaffected
 
-### ***Stack vs. Heap***
+#### in C arguments, parameters and local variables stored on the stack.
+
+### ***
