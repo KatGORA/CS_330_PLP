@@ -420,6 +420,8 @@ for starters...
 
 - the values remain the same after the swap function is run. This is because, under the hood, C is passing in copies of the variables (a and b in this case), and they are modified within the function, but the originals remain unaffected
 
-#### in C arguments, parameters and local variables stored on the stack.
+- This pass by value helps avoid some side effects that include editing a variable inside the function and changing the original unbeknownst to the programmer.
 
-### ***
+#### in C arguments, parameters and local variables are stored on the stack. In the case with C there is something called "garbage collection" or auto memory allocation that does not occure automatically in C. C uses malloc() to allocate space inmemory when data is instatiated, the user has to manually destory and make room in memory.
+
+
