@@ -422,6 +422,8 @@ for starters...
 
 - This pass by value helps avoid some side effects that include editing a variable inside the function and changing the original unbeknownst to the programmer.
 
+### ***Stack vs. Heap***
 #### in C arguments, parameters and local variables are stored on the stack. In the case with C there is something called "garbage collection" or auto memory allocation that does not occure automatically in C. C uses malloc() to allocate space inmemory when data is instatiated, the user has to manually destory and make room in memory.
 
 
+### 
