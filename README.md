@@ -481,3 +481,22 @@ for starters...
 		printf("Enter any character \n");
    		scanf("%c", &ch);
 
+## **Some important things to think about moving forward with C**
+[simplelearn.com](https://www.simplilearn.com/tutorials/c-tutorial/features-of-c-language)
+- fast
+	- statically typed faster than dynaically typed like Python 
+- pointers
+	- direct interaction with memory 
+- extensibility
+	- easily edited and augmentable code
+- portability 
+	- used on multiple OS
+- dynamic memory management 
+	- using manual memory allocation techniques gives more control to the programmer
+- supports recursion 
+	- functions can be called on themselves 
+- mid-level
+	- close to assembly language and therefore is good for creating compilers 
+
+
+
