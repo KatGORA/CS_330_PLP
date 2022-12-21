@@ -433,9 +433,7 @@ for starters...
 - in this case C is statically scoped 
 - also lexical scoping in C refers to...
 	- variable always refers to its top-level or global variables for example...
-			
-			
-			
+				
 			// A C program to demonstrate static scoping.
 			#include<stdio.h>
 			int x = 10;
@@ -460,3 +458,14 @@ for starters...
 			printf("\n");
 			return 0;
 			}
+#### ***"Is C OOP (object oriented) or Procedural?"***
+- C is procedural although there exists a version of C called Objective C that supports a more object oriented paradigm.
+- Procedural programming: 
+	- can be defined as a programming model which is derived from structured programming, based upon the concept of calling procedure. (Geeks for Geeks)
+	[GeeksforGeeks](https://www.geeksforgeeks.org/differences-between-procedural-and-object-oriented-programming/)
+	- program itself is organized into small sections or functions
+- therefore there are not objects in C but rather "structs" that behave in a similar fashion. 
+![structs vs. classes](https://slideplayer.com/slide/6837896/23/images/46/Differences+Between+Classes+And+Structs.jpg)
+
+
+
