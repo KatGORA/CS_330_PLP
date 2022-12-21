@@ -468,6 +468,7 @@ for starters...
 ![structs vs. classes](https://slideplayer.com/slide/6837896/23/images/46/Differences+Between+Classes+And+Structs.jpg)
 
 - structs should use the same principles for variable name creation and not include special characters otehr than "_" and should also generally follow strong tradition in having lowercase starting and followed by alphanumeric. 
+- C therefore does not also include support for inheritence since that is a property of object oriented programming. 
 
 ### ***__str__() function in C?***
 #### **scanf() and printf()**
