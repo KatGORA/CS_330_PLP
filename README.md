@@ -458,6 +458,7 @@ for starters...
 			printf("\n");
 			return 0;
 			}
+### **Programming Paradigm for C**
 #### ***"Is C OOP (object oriented) or Procedural?"***
 - C is procedural although there exists a version of C called Objective C that supports a more object oriented paradigm.
 - Procedural programming: 
@@ -469,6 +470,7 @@ for starters...
 
 - structs should use the same principles for variable name creation and not include special characters otehr than "_" and should also generally follow strong tradition in having lowercase starting and followed by alphanumeric. 
 - C therefore does not also include support for inheritence since that is a property of object oriented programming. 
+
 
 ### ***__str__() function in C?***
 #### **scanf() and printf()**
@@ -498,5 +500,6 @@ for starters...
 - mid-level
 	- close to assembly language and therefore is good for creating compilers 
 
+> ##### ***All information was sourced from Tutrial Spot, W3Schools, GeeksforGeeks, and other sources from the web***
 
 
