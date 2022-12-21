@@ -467,5 +467,16 @@ for starters...
 - therefore there are not objects in C but rather "structs" that behave in a similar fashion. 
 ![structs vs. classes](https://slideplayer.com/slide/6837896/23/images/46/Differences+Between+Classes+And+Structs.jpg)
 
+- structs should use the same principles for variable name creation and not include special characters otehr than "_" and should also generally follow strong tradition in having lowercase starting and followed by alphanumeric. 
 
+### ***__str__() function in C?***
+#### **scanf() and printf()**
+
+- not exactly like calling str but still formats string and numeric data. 
+- scanf() function is used to read character, string, numeric data from keyboard
+- Then, user enters a string and this value is assigned to the variable “str” and then displayed.
+
+		//example of formatting
+		printf("Enter any character \n");
+   		scanf("%c", &ch);
 
